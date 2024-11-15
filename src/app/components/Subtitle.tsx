@@ -7,6 +7,7 @@ const SubTitle = styled.p`
   line-height: 2;
   text-align: center;
   color: #333;
+  margin-bottom: 80px;
 `;
 
 const Subtitle = () => {

@@ -8,17 +8,20 @@ const MvTitle = styled.div`
   /* background-color: yellow; */
   background-image: url("/mv.webp");
   background-size: cover;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  margin: 0 auto;
+  margin: 160px auto 80px auto;
+  position: relative;
   p {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
     color: #333;
     line-height: 1.4;
     font-weight: 400;
     font-size: 48px;
     text-align: center;
-    padding-top: 450px;
+    /* padding-top: 450px; */
+    /* background-color: red; */
   }
 `;
 

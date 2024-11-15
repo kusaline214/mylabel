@@ -7,11 +7,14 @@ const HeaderBox = styled.div`
   width: 100vw;
   color: #333;
   display: flex;
+  position: fixed;
+  top: 0;
   align-items: center;
   justify-content: space-between;
   padding: 40px;
-  background-color: #fef4f1;
+  background-color: #fef4f17d;
   border-bottom: 1px solid rgba(36, 37, 40, 0.1);
+  z-index: 2;
 `;
 
 const LogoBox = styled.h1`
