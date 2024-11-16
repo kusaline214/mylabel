@@ -8,7 +8,7 @@ const BusinessDitailBigBox = styled.div`
 `;
 
 const BusinessDitailBox = styled.div`
-  background-color: yellow;
+  /* background-color: yellow; */
   max-width: 1280px;
   margin: 0 auto 80px auto;
   color: #333;
