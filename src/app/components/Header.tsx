@@ -38,13 +38,15 @@ const Header = () => {
   return (
     <HeaderBox>
       <LogoBox>
-        <Image
-          src={"/logo.webp"}
-          alt={""}
-          width={600}
-          height={95}
-          layout="responsive"
-        />
+        <a href="#">
+          <Image
+            src={"/logo.webp"}
+            alt={""}
+            width={600}
+            height={95}
+            layout="responsive"
+          />
+        </a>
       </LogoBox>
       <nav>
         <LinkList>
