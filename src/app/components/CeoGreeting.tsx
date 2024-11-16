@@ -31,7 +31,7 @@ const Greeting3 = styled.p`
 const CeoGreeting = () => {
   return (
     <GreetingBox>
-      <h2>代表挨拶</h2>
+      <h2 id="greetings">代表挨拶</h2>
       <Greeting1>
         「お客様に寄り添い”いつまでも心が明るくなるもの”を」その想いから
         ひとつひとつのご依頼の背景を大切にしております。

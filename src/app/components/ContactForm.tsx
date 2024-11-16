@@ -5,12 +5,12 @@ type Inputs = {
   name: string;
   email: string;
   details: string;
-  agree: boolean; 
+  agree: boolean;
 };
 
 const FormBox = styled.div`
   color: #333;
-  text-align: left; 
+  text-align: left;
   padding: 2rem;
   border-radius: 8px;
   max-width: 600px;
@@ -19,7 +19,7 @@ const FormBox = styled.div`
   h2 {
     color: #333;
     margin-bottom: 1rem;
-    text-align: center; 
+    text-align: center;
     font-size: 72px;
   }
 
@@ -33,7 +33,7 @@ const FormBox = styled.div`
       font-weight: bold;
       font-size: 0.9rem;
       color: #555;
-      span{
+      span {
         color: #8c0000;
       }
     }
@@ -103,7 +103,7 @@ const FormBox = styled.div`
     }
 
     input[type="checkbox"] {
-      accent-color: #ffffff; 
+      accent-color: #ffffff;
       width: 10px;
     }
   }
@@ -119,7 +119,7 @@ export default function App() {
 
   return (
     <FormBox>
-      <h2>お問い合せ</h2>
+      <h2 id="contact">お問い合せ</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="name">
           お名前<span className="required">*</span>

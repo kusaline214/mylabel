@@ -55,7 +55,7 @@ const items = [
 export default function CorporateInfo() {
   return (
     <CorporateInfoBox>
-      <h2>会社概要</h2>
+      <h2 id="aboutus">会社概要</h2>
       <div>
         <List sx={style}>
           {items.map((item, index) => (

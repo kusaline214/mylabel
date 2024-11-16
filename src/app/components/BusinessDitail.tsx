@@ -71,13 +71,9 @@ const BusinessDitail = () => {
   return (
     <BusinessDitailBigBox>
       <BusinessDitailBox>
-        <BgImageRight>
-
-        </BgImageRight>
-        <BgImageLeft>
-
-        </BgImageLeft>
-        <h2>事業内容</h2>
+        <BgImageRight></BgImageRight>
+        <BgImageLeft></BgImageLeft>
+        <h2 id="business">事業内容</h2>
         <DitailBox>
           商業用ロゴ、店舗、ポップアップイベント等の総合デザイン
         </DitailBox>

@@ -30,19 +30,19 @@ const Footer = () => {
       <FooterTopBox>
         <nav>
           <ul>
-            <a href="">
+            <a href="#business">
               <li>事業内容</li>
             </a>
-            <a href="">
+            <a href="#greetings">
               <li>代表挨拶</li>
             </a>
-            <a href="">
+            <a href="#aboutus">
               <li>会社概要</li>
             </a>
             <a href="">
               <li>求人情報</li>
             </a>
-            <a href="">
+            <a href="#contact">
               <li>お問合せ</li>
             </a>
           </ul>
