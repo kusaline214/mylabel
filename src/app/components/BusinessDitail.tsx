@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 
@@ -9,7 +8,7 @@ const BusinessDitailBigBox = styled.div`
 
 const BusinessDitailBox = styled.div`
   /* background-color: yellow; */
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto 80px auto;
   color: #333;
   font-size: 72px;
@@ -41,13 +40,24 @@ const DitailCommentBox = styled.p`
 const BgImageRight = styled.div`
   position: absolute;
   right: 0;
-  z-index: 0;
+  z-index: -1;
+  height: 184px;
+  width: 128px;
+  background-image: url("/i1.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
 `;
+
 const BgImageLeft = styled.div`
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: 0;
+  z-index: -1;
+  height: 582px;
+  width: 466px;
+  background-image: url("/i2.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
 `;
 
 const Wp = styled.div`
@@ -62,10 +72,10 @@ const BusinessDitail = () => {
     <BusinessDitailBigBox>
       <BusinessDitailBox>
         <BgImageRight>
-          <Image src={"/i1.webp"} alt={""} height={184} width={128} />
+
         </BgImageRight>
         <BgImageLeft>
-          <Image src={"/i2.webp"} alt={""} height={582} width={466} />
+
         </BgImageLeft>
         <h2>事業内容</h2>
         <DitailBox>

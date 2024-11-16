@@ -5,23 +5,21 @@ type Inputs = {
   name: string;
   email: string;
   details: string;
-  agree: boolean; // チェックボックスの状態をフォームの一部として追加
+  agree: boolean; 
 };
 
 const FormBox = styled.div`
   color: #333;
-  text-align: left; /* 左寄せ */
+  text-align: left; 
   padding: 2rem;
-  /* background-color: #f9f9f9; */
   border-radius: 8px;
-  /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);s */
   max-width: 600px;
   margin: 0 auto;
 
   h2 {
     color: #333;
     margin-bottom: 1rem;
-    text-align: center; /* タイトルは中央寄せ */
+    text-align: center; 
     font-size: 72px;
   }
 
@@ -35,6 +33,9 @@ const FormBox = styled.div`
       font-weight: bold;
       font-size: 0.9rem;
       color: #555;
+      span{
+        color: #8c0000;
+      }
     }
 
     input,
@@ -102,7 +103,7 @@ const FormBox = styled.div`
     }
 
     input[type="checkbox"] {
-      accent-color: #ffffff; /* チェックボックスの色を白に変更 */
+      accent-color: #ffffff; 
       width: 10px;
     }
   }
